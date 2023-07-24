@@ -1,0 +1,12 @@
+Writing higher-quality Code (part 1)
+
+Separate Data from Code.
+
+Signpost with comments.
+
+Avoid duplicated code.
+
+Use separate dedicated routines to isolate input and output from the rest of the code.
+
+In general, access class data only by using methods (except for UDT classes)
+

@@ -1,0 +1,33 @@
+FUNCTION SearchInRow (row, column : INTERGER) RETURNS INTEGER
+	DECLARE step : INTEGER
+	IF column == 1280 THEN
+		step <- -1
+	ELSE
+		step <- 1
+	ENDIF
+	WHILE SCREEN[row, column] <> 1 DO
+		column <- smth + (1 * step)
+		IF column == 1281 OR column == 0 THEN
+			RETURN -1
+	ENDWHILE
+	RETURN column
+--------------------------------------------------------------------------------
+Version 2
+
+FUNCTION SearchInRow (row, column : INTERGER) RETURNS INTEGER
+	DECLARE start, end, step : INTEGER
+	IF column == 1280 THEN
+		start <- 1280
+		end <- 1
+		step <- -1
+	ELSE
+		start <- 1
+		end <- 1280
+		step <- 1
+	ENDIF
+	FOR i <- start TO end DO STEP step
+		IF SCREEN[row, i] == 1 THEN
+			RETURN i
+		ENDIF
+	NEXT 
+	RETURN -1

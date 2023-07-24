@@ -1,0 +1,22 @@
+Useful references for Tkinter:
+
+1. Real Python Article
+https://realpython.com/python-gui-tkinter/#building-your-first-python-gui-application-with-tkinter
+
+
+2. Reference Guide
+https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/index.html
+
+
+3. filedialog module
+https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/tkFileDialog.html
+
+4. Python's OS module
+https://www.geeksforgeeks.org/os-module-python-examples/
+
+5. Adding line numbers to a tkinter text widget
+https://codingshiksha.com/python/python-3-tkinter-adding-line-numbers-to-text-widget-in-gui-desktop-app-full-project-for-beginners/
+
+6. Scrolled text widget
+https://www.geeksforgeeks.org/python-tkinter-scrolledtext-widget/
+
